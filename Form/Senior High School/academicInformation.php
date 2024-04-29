@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<div class="form">
+    <div class="form">
         <div class="header">
             <h3>Academic Information</h3>
         </div>

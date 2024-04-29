@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="form">
+        <div class="form">
             <div class="header">
                 <h3>Parent Profile</h3>
             </div>

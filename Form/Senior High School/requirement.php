@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../Style/registrationForm.css">
-</head>
-<body>
 
     <style> 
         .requirements {
@@ -18,7 +16,10 @@
         }
     </style>
 
-<div class="form">
+</head>
+    <body>
+
+        <div class="form">
             <div class="header">
                 <h3>Requirements</h3>
             </div>
@@ -41,6 +42,6 @@
                 </a>
             </div>
         </div>
-    
-</body>
+        
+    </body>
 </html>
