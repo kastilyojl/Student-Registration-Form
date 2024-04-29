@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education Background</title>
-    <link rel="stylesheet" href="./Registration-form.css">
+    <link rel="stylesheet" href="../../Style/registrationForm.css">
 </head>
 <body>
 
