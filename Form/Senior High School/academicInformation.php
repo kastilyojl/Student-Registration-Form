@@ -23,8 +23,8 @@
         <form action="">
             <div class="row">
                 <label class="required">Type of Student</label><br>
-                <input type="radio" name="type"><label>Old Student</label>
-                <input type="radio" name="type"><label>New Student</label>
+                <input type="radio" name="type" onclick="hideShowInputBox('hide')"><label>Old Student</label>
+                <input type="radio" name="type" onclick="hideShowInputBox('show')"><label>New Student</label>
                 <input id="inputBox" type="text" placeholder="Enter Previous School">
             </div>
             <div class="row">
@@ -60,9 +60,9 @@
                 </div>
                 <div class="other">
                     <br>
-                    <input type="radio"><label>ESC Certificate</label><br>
+                    <input type="radio" onclick="hideShowInputBox('showESC')"><label>ESC Certificate</label><br>
                     <input type="text" id="inputBoxESC" placeholder="Enter ESC Certificate #">
-                    <input type="radio"><label>Scholar</label>
+                    <input type="radio" onclick="hideShowInputBox('showScholar')"><label>Scholar</label>
                     <input type="text" id="inputBoxScholar" placeholder="Enter Scholar Name">
                 </div>
             </div>
@@ -77,6 +77,8 @@
             </a>
         </div>
     </div>
+
+    <script src="../../Javascript/registrationForm.js"></script>
 
 </body>
 </html>
