@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('./main.css');
+
+body {
+    background: #E3E8EB;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background: #ffff;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.header div:nth-child(1),
+.header div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: var(--logo-size);
+}
+
+.header h3 {
+    font-size: 30px;
+}
+
+.need-help {
+    font-size: 12px;
+    margin: 0 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.need-help:hover {
+    text-decoration: underline;
+}
+
+.help-icon {
+    background: gray;
+    color: #ffff;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows:1fr;
+
+    column-gap: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form .left-side {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr;
+    padding: 0 20px;
+}
+
+.form .left-side .title {
+    border-bottom: 1px solid var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.form .left-side .title h3 {
+    font-size: 24px;
+}
+
+.form .left-side .title p {
+    font-size: 14px;
+}
+
+.form .left-side .list-container {
+    margin-top: 20px;
+}
+
+.form .left-side .list {
+    font-size: 18px;
+    height: 50px;
+    border-left: 4px solid #c9c9c9;
+    
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form .left-side .list:nth-child(1) {
+    border-left:4px solid var(--main-color);
+    font-weight: bold;
+}
+
+.form .left-side .list:not(:nth-child(1)) {
+    color: #808080;
+    font-size: 14px;
+}
+
+.form .right-side {
+    height: 450px;
+    width: 800px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0.5px 0.5px 6px gray;
+}

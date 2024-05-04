@@ -1,0 +1,11 @@
+:root {
+    --main-color: #00004C;
+    --logo-size: 60px;
+}
+
+html, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}

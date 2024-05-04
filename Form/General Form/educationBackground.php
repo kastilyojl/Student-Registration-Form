@@ -58,10 +58,10 @@
         
             </form>
             <div class="footer">
-                <a href="./Parents-Info.php">
+                <a href="./parentProfile.php">
                     <button class="back-button">Back</button>
                 </a>
-                <a href="./SHS-Requirements.php">
+                <a href="../Senior High School/requirement.php">
                     <button class="next-button">Next</button>
                 </a>
             </div>

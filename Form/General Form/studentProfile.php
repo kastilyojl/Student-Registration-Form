@@ -22,7 +22,7 @@
         <div class="header">
             <h3>Student Profile</h3>
         </div>
-        <form action="">
+        <form action="../../Database/create.php" method="post">
             <div class="row">
                 <label class="required">Name</label>
                 <div class="align-input">
@@ -38,7 +38,7 @@
             <div class="row column">
                 <div>
                     <label class="required">Place of Birth</label>
-                    <input type="text" name="place-birth" placeholder="Enter Place of Birth">
+                    <input type="text" name="placebirth" placeholder="Enter Place of Birth">
                 </div>
                 <div>
                     <label class="required">Date of Birth</label>
@@ -53,19 +53,19 @@
                 <div class="gender-side">
                     <label class="required">Gender</label> <br>
                     <div class="align-input">
-                    <label class="radio-button">Male</label><input type="radio" name="gender" id="male">
-                    <label class="radio-button">Female</label><input type="radio" name="gender" id="female">
+                    <label class="radio-button">Male</label><input type="radio" name="gender" id="male" value="Male">
+                    <label class="radio-button">Female</label><input type="radio" name="gender" id="female" value="Female">
                     </div>
                 </div>
             </div>
             <div class="row column">
                 <div>
                     <label>Religion</label>
-                    <input type="text" placeholder="Religion">
+                    <input type="text" name="religion" placeholder="Religion">
                 </div>
                 <div>
                     <label class="required">Civil Status</label>
-                    <select name="civil-status">
+                    <select name="civilstatus">
                         <option hidden>Select Civil Status</option>
                         <option value="signle">Single</option>
                         <option value="married">Married</option>
@@ -77,9 +77,9 @@
         <div class="footer">
             <div class="note">Note: Fill out required (*) field to proceed.</div>
             <div>
-                <a href="#">
-                    <button class="next-button">Next</button>
-                </a>
+                <form action="../../Database/create.php" method="post">
+                    <input type="submit" value="Submit" name="created">
+                </form>
             </div>
         </div>
     </div>

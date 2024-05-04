@@ -23,22 +23,55 @@
             <div class="header">
                 <h3>Requirements</h3>
             </div>
-            <div class="requirements">
-                <p>Sample Requirement</p>
-                <p>Sample Requirement</p>
-                <p>Sample Requirement</p>
-                <p>Sample Requirement</p>
-                <p>Sample Requirement</p>
-                <p>Sample Requirement</p>
-                <p>Sample Requirement</p>
-                <p>Sample Requirement</p>
-            </div>
+            <form action="">
+                <div class="row column">
+                    <div>
+                        <label>Form 138 (JHS/SHS Card)</label>
+                        <input type="file" name="image" accept="image/*">
+                    </div>
+                    <div>
+                        <label>Transcript of Record (TCR) or F137</label>
+                        <input type="file" name="image" accept="image/*" disabled>
+                    </div>
+                </div>
+                <div class="row column">
+                    <div>
+                        <label>ESC Certificate (if applicable)</label>
+                        <input type="file" name="image" accept="image/*">
+                    </div>
+                    <div>
+                        <label>Certificate of Good Moral</label>
+                        <input type="file" name="image" accept="image/*">
+                    </div>
+                </div>
+                <div class="row column">
+                    <div>
+                        <label>G10 Certificate of Recognition</label>
+                        <input type="file" name="image" accept="image/*">
+                    </div>
+                    <div>
+                        <label>Honorable Dismissal</label>
+                        <input type="file" name="image" accept="image/*">
+                    </div>
+                </div>
+                <div class="row column">
+                    <div>
+                        <label>Birth Certificate</label>
+                        <input type="file" name="image" accept="image/*">
+                    </div>
+                    <div>
+                        <label>2x2 Picture</label>
+                        <input type="file" name="image" accept="image/*">
+                    </div>
+                </div>
+                
+            </form>
             <div class="footer">
-                <a href="#">
+                <a href="../General Form/educationBackground.php">
                     <button class="back-button">Back</button>
                 </a>
                 <a href="#">
-                    <button class="next-button">Submit</button>
+                    <button class="next-button" name="create">Submit</button>
                 </a>
             </div>
         </div>

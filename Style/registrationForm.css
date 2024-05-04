@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-html, * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto';
-}
+@import url('./main.css');
 
 body {
     height: 100vh;
@@ -33,7 +27,7 @@ body {
 }
 
 .form::-webkit-scrollbar-thumb {
-    background:#00004C;
+    background:var(--main-color);
     border-radius: 50px;
 }
 
@@ -86,7 +80,7 @@ input[type="radio"] {
     width: 16px;
     margin: 0 10px;
     margin-top: 4px;
-    accent-color: #00004C;
+    accent-color: var(--main-color)
 }
 
 .footer {
@@ -111,7 +105,7 @@ input[type="radio"] {
     width: 100px;
     border-radius: 50px;
     border: none;
-    background: #00004C;
+    background-color: var(--main-color);
     border: 1px solid #c2c2c2;
     color: #ffff;
     cursor: pointer;
@@ -121,4 +115,25 @@ input[type="radio"] {
     content: "*";
     color: red;
     padding: 0 6px;
+}
+
+input[type="file"] {
+    border-style: dashed;
+    border-color: var(--main-color);
+    padding: 2px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    height: 100%;
+    border-radius: 4px;
+    border: none;
+    background: var(--main-color);
+    color: #ffff;
+    cursor: pointer;
+}
+
+input[type="file"]:disabled::-webkit-file-upload-button {
+    all: unset;
+    display: none;
 }

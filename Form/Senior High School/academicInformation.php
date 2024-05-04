@@ -31,9 +31,9 @@
                 <label class="required">Campus</label><br>
                 <input type="radio" name="campus"><label>Banlic</label>
                 <input type="radio" name="campus"><label>Uno</label>
-                <input type="radio" name="campus"><label>Marinig</label>
-                <input type="radio" name="campus"><label>San Jose</label>
-                <input type="radio" name="campus"><label>San Mateo</label>
+                <input type="radio" name="campus" disabled><label>Marinig</label>
+                <input type="radio" name="campus" disabled><label>San Jose</label>
+                <input type="radio" name="campus" disabled><label>San Mateo</label>
             </div>
             <div class="row column">
                 <div>
@@ -69,10 +69,10 @@
             
         </form>
         <div class="footer">
-            <a href="#">
+            <a href="../General Form/studentProfile.php">
                 <button class="back-button">Back</button>
             </a>
-            <a href="#">
+            <a href="../General Form/parentProfile.php">
                 <button class="next-button">Next</button>
             </a>
         </div>

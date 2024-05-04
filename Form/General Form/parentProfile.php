@@ -12,7 +12,7 @@
 
         <div class="form">
             <div class="header">
-                <h3>Parent Profile</h3>
+                <h3>Parents Profile</h3>
             </div>
             <form action="">
                 <div class="row column">
@@ -28,30 +28,30 @@
                 <div class="row column">
                     <div>
                         <label>Mother's Occupation</label>
-                        <input type="text" placeholder="Mother's Occupation" name="mother-occupation">
+                        <input type="text" placeholder="Mother's Occupation" name="motheroccupation">
                     </div>
                     <div>
                         <label>Father's Occupation</label>
-                        <input type="text" placeholder="Father's Occupation" name="father-occupation">
+                        <input type="text" placeholder="Father's Occupation" name="fatheroccupation">
                     </div>
                 </div>
                 <div class="row column">
                     <div>
                         <label>Mother's Cellphone #</label>
-                        <input type="tel" placeholder="09123456789" name="mother-cell#">
+                        <input type="tel" placeholder="09123456789" name="motherphone">
                     </div>
                     <div>
                         <label>Father's Cellphone #</label>
-                        <input type="text" placeholder="09123456789" name="father-cell#">
+                        <input type="text" placeholder="09123456789" name="fatherphone">
                     </div>
                 </div>
                 
             </form>
             <div class="footer">
-                <a href="#">
+                <a href="../Senior High School/academicInformation.php">
                     <button class="back-button">Back</button>
                 </a>
-                <a href="#">
+                <a href="./educationBackground.php">
                     <button class="next-button">Next</button>
                 </a>
             </div>
