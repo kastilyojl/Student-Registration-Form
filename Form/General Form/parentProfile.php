@@ -52,10 +52,12 @@
                     <button class="back-button">Back</button>
                 </a>
                 <a href="./educationBackground.php">
-                    <button class="next-button">Next</button>
+                    <button class="next-button" onclick="progressBar(3)">Next</button>
                 </a>
             </div>
         </div>
+
+        <script src="../../Javascript/registrationForm.js"></script>
 
 </body>
 </html>

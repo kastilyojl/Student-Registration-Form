@@ -13,8 +13,8 @@
     <div class="container">
         <div class="header">
             <div>
-                <img id="logo" src="../Images/WITI-icon.png" alt="">
-                <h3>WITI</h3>
+                <img id="logo" src="../Images/undraw_cabin_hkfr.svg" alt="">
+                <h3>KJL</h3>
             </div>
             <div>
                 <h4 class="need-help">Need Help</h4>
@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <script src="./Registration-page.js"></script>
+    <script src="../Javascript/registrationForm.js"></script>
 
 </body>
 </html>

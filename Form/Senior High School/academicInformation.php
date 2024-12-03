@@ -73,7 +73,7 @@
                 <button class="back-button">Back</button>
             </a>
             <a href="../General Form/parentProfile.php">
-                <button class="next-button">Next</button>
+                <button class="next-button" onclick="progressBar(2)">Next</button>
             </a>
         </div>
     </div>

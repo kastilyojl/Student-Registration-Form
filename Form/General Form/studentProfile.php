@@ -77,12 +77,14 @@
         <div class="footer">
             <div class="note">Note: Fill out required (*) field to proceed.</div>
             <div>
-                <form action="../../Database/create.php" method="post">
-                    <input type="submit" value="Submit" name="created">
-                </form>
+                <a href="../Senior High School/academicInformation.php">
+                    <button onclick="progressBar(1)" class="next-button">Next</button>
+                </a>
             </div>
         </div>
     </div>
+
+    <script src="../../Javascript/registrationForm.js"></script>
     
 </body>
 </html>

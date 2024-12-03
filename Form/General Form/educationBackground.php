@@ -62,10 +62,12 @@
                     <button class="back-button">Back</button>
                 </a>
                 <a href="../Senior High School/requirement.php">
-                    <button class="next-button">Next</button>
+                    <button class="next-button" onclick="progressBar(4)">Next</button>
                 </a>
             </div>
     </div>
+
+    <script src="../../Javascript/registrationForm.js"></script>
     
 </body>
 </html>

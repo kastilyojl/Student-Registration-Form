@@ -70,11 +70,15 @@
                 <a href="../General Form/educationBackground.php">
                     <button class="back-button">Back</button>
                 </a>
-                <a href="#">
-                    <button class="next-button" name="create">Submit</button>
-                </a>
+                <form action="../../Database/create.php" method="post">
+                    <a href="#">
+                        <button class="next-button" id="submit-button" name="create">Submit</button>
+                    </a>
+                </form>
             </div>
         </div>
+
+        <script src="../../Javascript/registrationForm.js"></script>        
         
     </body>
 </html>

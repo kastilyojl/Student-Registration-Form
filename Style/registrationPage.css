@@ -27,6 +27,7 @@ body {
 }
 
 img {
+    margin-right: 10px;
     height: var(--logo-size);
 }
 
